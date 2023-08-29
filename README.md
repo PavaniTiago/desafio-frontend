@@ -1,49 +1,34 @@
-# Desafio-Frontend
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-![alt tag](https://s3-us-west-1.amazonaws.com/1sti/1sti-transformacao.png)
+## Getting Started
 
-## Bem-vindo
+First, run the development server:
 
-A 1STi é uma consultoria em tecnologias digitais emergentes que tem a missão de aproximar a tecnologia das reais necessidades sociais. Nós enxergamos a tecnologia como um presente à humanidade dado pela expressão de nosso próprio intelecto, realizando uma síntese entre arte, humanidade e ciência.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
 
-Nosso modelo de negócios combina projetos de valor compartilhado com consultoria nas tecnologias mais avançadas. Esse desafio é uma oportunidade para fazer parte do nosso time em uma jornada de aprendizado e desenvolvimento de interfaces web!
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Aprendizado e desenvolvimento
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-Você pode esperar um trabalho intenso em projetos HTML5/CSS3 com o framework React, do facebook, e boas práticas em Redux, um mecanismo de gerenciamento de estado de aplicações, além de diversos componentes javascript. 
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-O aprendizado se dá através de projetos reais, na construção de sites e aplicações que ajudem causas sociais de impacto. Conforme a evolução, serão feitas transições para projetos de consultoria em ambientes de negócio complexos. Temos o suporte de vídeo aulas em inglês para apoiar os estudos e montamos um plano individual em conjunto.
+## Learn More
 
-O trabalho é home office, com carga horária de 6 horas por dia e comunicação intensa via slack e sala de vídeo no appear. Espere uma equipe engajada e ideológica, mas muito mão na massa e com sólidos princípios de arquitetura de aplicações web.
+To learn more about Next.js, take a look at the following resources:
 
-O valor da bolsa de estágio por 01 ano é de R$ 1.000,00/mês.
-Serão dois selecionados e apos o desafio técnico teremos conversas por skype, mas fique à vontade para já ir nos conhecendo no slack.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## Como participar
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-* Crie um novo fork e branch com seu nome-sobrenome e faça um pull request quando estiver pronto. Iremos fazer code review.
-* Envie um email para ola@1sti.com.br para te adicionarmos ao time slack do desafio.
+## Deploy on Vercel
 
-## O desafio
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Vamos dar uma olhada na previsão do tempo? A meta é criarmos uma página simples, que consuma a API do Yahoo de previsão do tempo (https://developer.yahoo.com/weather/). O layout final deverá ficar o mais próximo possível da versão abaixo (sim, vamos ter a versão responsiva mobile e a versão desktop):
-
-Web:
-
-![alt tag](https://s3-us-west-1.amazonaws.com/1sti/desafio-desktop1.png)
-
-![alt tag](https://s3-us-west-1.amazonaws.com/1sti/desafio-desktop2.png)
-
-Mobile responsivo:
-
-![alt tag](https://s3-us-west-1.amazonaws.com/1sti/desafio-mobile1.png)
-
-![alt tag](https://s3-us-west-1.amazonaws.com/1sti/desafio-mobile2.png)
-
-## Dicas
-
-* Tudo bem, até pode usar jquery. Se você não quiser usar (bônus), uma sugestão: Axios para a comunicação com a API.
-* HTML o mais semântico possível.
-* Branches com readme e instruções de implantação serão bem vindos.
-* Pré-processadores CSS como Stylus ou LESS também.
-* Que tal utilizar BEM nos identificadores css? http://getbem.com/naming/ 
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
