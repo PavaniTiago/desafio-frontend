@@ -5,10 +5,10 @@ import { Title } from "./title";
 
 export default function Header() {
   return (
-    <Container>
+    <>
       <Title>Previsão do Tempo</Title>
       <InputContainerWIcon placeholder="Insira aqui o nome da cidade"/>
       <Separator />
-    </Container>
+    </>
   )
 }

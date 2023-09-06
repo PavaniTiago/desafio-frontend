@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 body {
-    widtgh: 100vw;
-    height: 100vh;
-    background-image: linear-gradient(to bottom, #ff7f00, #ffba00);
     overflow: hidden;
+    background-image: linear-gradient(to bottom, #ff7f00, #ffba00);
     margin: 0;
     padding: 0;
+    font-family: 'Inter', sans-serif;
 }
