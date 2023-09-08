@@ -1,6 +1,6 @@
-import { styled } from "styled-components";
+import { styled } from 'styled-components'
 
 export const MinFahrenheit = styled.h3`
-    font-size: 1.1em;
-    font-weight: bold;
-`;
+  font-size: 1.1em;
+  font-weight: bold;
+`
